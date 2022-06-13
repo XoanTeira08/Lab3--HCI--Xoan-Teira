@@ -1,0 +1,112 @@
+﻿* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+    *:focus {
+        outline: none;
+    }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../Imagenes/ondulado-rojo-fondo-semitono_1409-1274.jpg');
+    padding: 50px;
+}
+/*############### ENCABEZADO###############*/
+.encabezado {
+    margin: 1%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 35px;
+    background-color: #e00606;
+    border-radius: 25px;
+}
+
+.titulo {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #FFF;
+    text-shadow: 3px 5px 5px #000000;
+}
+.titulo2 {
+    font-size: 75px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #808080;
+    text-shadow: 3px 5px 5px #000000;
+}
+.titulo3 {
+    font-size: 75px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #000000;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    width: 195px;
+    height: 155px;
+}
+.enlaces {
+    margin-top: 35px;
+}
+/*############### ESTILO DE LOS BOTONES######################*/
+.icono{
+    float:left;
+    height:400px;
+    width:400px;
+    margin-right:75px;
+}
+.icono2 {
+    float: left;
+    height: 400px;
+    width: 400px;
+    margin-left:20px;
+    
+}
+.agregar {
+    background-color: #FFF;
+    float: left;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 200px;
+    border-radius: 25px;
+    border: 5px solid #e00606;
+}
+
+.ver {
+    background-color: #FFF;
+    margin-left:50px;
+    float: left;
+    text-align: center;
+    border-radius: 25px;
+    border:5px solid #e00606;
+}
+.enlaces{
+    background-color:#FFF;
+}
+
+.enlaces a:visited {
+    color: black;
+}
+
+.enlaces a:link {
+    color: black;
+}
+
+.enlaces a:hover {
+    color: #e00606;
+}
+

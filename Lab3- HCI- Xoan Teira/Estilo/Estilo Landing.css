@@ -1,0 +1,78 @@
+﻿* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+    *:focus {
+        outline: none;
+    }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../Imagenes/ondulado-rojo-fondo-semitono_1409-1274.jpg');
+    padding: 50px;
+}
+/*############### ENCABEZADO###############*/
+.encabezado {
+    margin: 1%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 35px;
+    background-color: #e00606;
+    border-radius: 25px;
+}
+
+.titulo {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #FFF;
+    text-shadow: 3px 5px 5px #000000;
+}
+.titulo2 {
+    font-size: 75px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #808080;
+    text-shadow: 3px 5px 5px #000000;
+}
+
+.logo {
+    margin-left:20px;
+    margin-top:10px;
+    float: left;
+    width: 195px;
+    height: 155px;
+}
+.app-title {
+    text-align: center;
+    color: #000000;
+}
+.btn {
+    border: 2px solid transparent;
+    background: #808080;
+    text-align:center;
+    font-size:25px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 20px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+    .btn:hover {
+        background-color: #e00606;
+    }

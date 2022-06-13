@@ -1,0 +1,71 @@
+﻿* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+    *:focus {
+        outline: none;
+    }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../Imagenes/ondulado-rojo-fondo-semitono_1409-1274.jpg');
+    padding: 50px;
+}
+
+.encabezado {
+    margin: 1%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 35px;
+    background-color: #e00606;
+    border-radius: 25px;
+}
+
+.titulo {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #FFF;
+    text-shadow: 3px 5px 5px #000000;
+}
+
+.titulo2 {
+    font-size: 75px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #808080;
+    text-shadow: 3px 5px 5px #000000;
+}
+
+.titulo3 {
+    font-size: 75px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #000000;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    width: 195px;
+    height: 155px;
+}
+.tabla {
+    background-color: #FFF;
+    border: 5px solid #e00606;
+    border-radius: 25px;
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
